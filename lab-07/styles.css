@@ -4,6 +4,8 @@ body{background-color: white;}
 text{color: black;}
 
 a{color: #c79409;}
+a:visited {color: #c79409;}
+a:hover{color: #c79409;}
 
 h1, h2 {color: #740001}
 h1 {font-size: 3em;}
