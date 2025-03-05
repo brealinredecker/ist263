@@ -12,6 +12,7 @@
             display: flex;
             background-color: #cbcbcb;
             border-radius: 10px;
+            padding: 20px;
             margin-bottom: 20px;
             }
             
@@ -19,6 +20,24 @@
         form {
             display: flex;
             flex-direction: column;
+        }
+
+        .row1 {
+            justify-content: space-between;
+            align-items: center;}
+        
+        .column1, .column2 {
+            flex: 1; padding: 10px;
+        }
+
+        .column2 {
+            text-align: right;
+        }
+
+        .row2 {
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 10px;
         }
 
     </style>
