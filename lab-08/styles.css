@@ -19,5 +19,26 @@ h2 {font-size: 2em;}
 
 .evenrow{background-color: rgba(134, 134, 134, 0.692);}
 
-.copyright {float:left; margin: 10px;}
-.quote {float:right; margin: 10px; font-style: italic;}
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: left;
+    min-height: 50px;
+}
+
+.copyright {
+    float: left;
+    margin: 10px;
+}
+
+.quote {
+    float: right;
+    margin: 10px;
+    font-style: italic;
+}
+
+footer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
