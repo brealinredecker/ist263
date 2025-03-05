@@ -29,9 +29,9 @@ h2 {font-size: 2em;}
 }
 
 .column1,
-.column2 {
+.column2,.form,.map {
     flex: 1;
-    background-color: #f4f4f4;
+    background-color: #c79409;
     padding: 20px;
     border-radius: 10px;
 }
@@ -42,7 +42,7 @@ h2 {font-size: 2em;}
 
 .form, .map {
     flex: 1;
-    background-color: #f4f4f4;
+    background-color: #c79409;
     padding: 20px;
     border-radius: 10px;
 }
@@ -58,19 +58,6 @@ form {
 
 form label, form input, form select, form textarea {
     margin-bottom: 10px;
-}
-
-input[type="submit"] {
-    background-color: #740001;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #c79409;
 }
 
 iframe {
