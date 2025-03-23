@@ -9,6 +9,9 @@
         table, th, td {border: 2px solid rgb(69, 7, 7)}
         h1 {display: flex; justify-content:center;}
         i {font-size: 50px; width: 60px; text-align: center;}
+        .skills-container {display: flex;}
+        .other-skills {background-color: #740001; border-radius: 20px;}
+        .flexbox-2 {display: flex;}
     </style>
     <link rel="stylesheet" href="styles.css">
     
@@ -26,28 +29,43 @@
     <h1> Technical Skils </h1>
     <p> Listed below are my skills that I bring to the table as a professional. As you can see I have a wide range of computer, business, and interpersonal skills that are all important to being a successful powerhouse in the working enviornment.</p>
 
-    <div class="skills-container">
-        <div class="skill-box">
-            <i class="fa-solid fa-calendar-days"></i>
-            <p>Operational Planning</p>
+    <div class="flexbox-2">
+        <div class="main-content">
+            <div class="skills-container">
+                <div class="skill-box">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <p>Operational Planning</p>
+                </div>
+                <div class="skill-box">
+                    <i class="fa-solid fa-clock"></i>
+                    <p>Time Management</p>
+                </div>
+                <div class="skill-box">
+                    <i class="fa-solid fa-file-powerpoint"></i>
+                    <p>PowerPoint / Google Slides</p>
+                </div>
+                <div class="skill-box">
+                    <i class="fa-solid fa-question"></i>
+                    <p>Decision Making</p>
+                </div>
+                <div class="skill-box">
+                    <i class="fa-solid fa-code"></i>
+                    <p>RStudio</p>
+                </div>
+            </div>
         </div>
-        <div class="skill-box">
-            <i class="fa-solid fa-clock"></i>
-            <p>Time Management</p>
-        </div>
-        <div class="skill-box">
-            <i class="fa-solid fa-file-powerpoint"></i>
-            <p>PowerPoint / Google Slides</p>
-        </div>
-        <div class="skill-box">
-            <i class="fa-solid fa-question"></i>
-            <p>Decision Making</p>
-        </div>
-        <div class="skill-box">
-            <i class="fa-solid fa-code"></i>
-            <p>RStudio</p>
+        <div>
+            <aside class="other-skills">
+                <h2>Other Skills</h2>
+                <p>Here are some additional skills that I bring to the table.</p>
+                <ul>
+                    <li>MySQL</li>
+                    <li>HTML</li>
+                    <li>Teamwork</li>
+                    <li>Risk Assessment</li>
+                    <li>Excel / Google Sheets</li>
+                </ul>
+            </aside>
         </div>
     </div>
-
-    </table>
 </body>
