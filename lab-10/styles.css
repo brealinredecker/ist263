@@ -47,3 +47,22 @@ footer::after {
     max-width: 100%;
     height: auto;
 }
+
+@media screen and (max-width: 600px) { 
+    nav p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        display: block;  
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav span {
+        display: none;
+    }
+}
