@@ -43,3 +43,7 @@ footer::after {
     display: table;
 }
 
+.image-fixed {
+    max-width: 100%;
+    height: auto;
+}
