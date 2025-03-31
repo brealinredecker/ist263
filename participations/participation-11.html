@@ -5,13 +5,41 @@
 <head>
     <meta charset="utf-8">
     <title>JavaScript</title>
-    <script>
-        alert('I am sending an alert')
-    </script>
 </head>
 
-<body>
+<script>
+    function SecondBlock(){
+        alert('Second Alert')
+    }
+
+    function ThirdBlock(){
+        alert('This is the third alert wow!')
+    }
+
+    function clicky() {
+        alert('Hello World');
+    }
+
+    function hovery() {
+        alert('Hello World');
+    }
+
+    function loady() {
+        alert('Hello World');
+    }
+</script>
+    
+<body onload="loady();">
+    
     <p>Content goes here</p>
+    
+    <p><a href="#" onclick="SecondBlock();">Click Here for the second alert</a></p>
+    <p><a onmouseover="ThirdBlock();">Come Over Here for the third alert</a></p>
+
+    <ul>
+        <li><a href="#" onclick="clicky();"> Here is the click</a></li>
+        <li><a href="#" onmousehover="hovery():> Here is the hover</a></li>
+    </ul>
 </body>
 
 </html>
