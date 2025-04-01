@@ -84,7 +84,6 @@ footer {
     justify-content: space-between; /* Positions items on the left and right */
     align-items: center; /* Vertically centers the content */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Consistent font style */
-    width: 100%;
 }
 
 footer .copyright {
@@ -99,7 +98,7 @@ footer .quote {
 
 
 /* BODY STYLES / FONTS / COLORS */
-main{
+.index{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color:#FFFFFF;
     display: flex;
