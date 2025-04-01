@@ -9,6 +9,7 @@ header {
     background-size: cover;
     background-position: center;
     position: relative;
+    background-color: #000E54;
 }
 
 header::before {
