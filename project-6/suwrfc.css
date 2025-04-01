@@ -158,3 +158,11 @@ footer .quote {
         grid-template-columns: 1fr; /* Switch to a single column layout on mobile */
     }
 }
+
+/* NEWS PAGE */
+main{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
