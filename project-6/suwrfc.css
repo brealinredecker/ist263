@@ -1,9 +1,11 @@
+/*HEADER STYLING*/
+
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-image: url("../media/Game Photos/UB Team Circle.jpg"); /* Replace with your actual image path */
+    background-image: url("../media/Game Photos/UB Team Circle.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -16,7 +18,7 @@ header::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust transparency (0.5 = 50% opacity) */
+    background-color: rgba(0, 0, 0, 0.35);
     z-index: 0;
 }
 
@@ -24,17 +26,42 @@ header h1,
 header .logo, 
 header nav {
     position: relative;
-    z-index: 1; /* Ensures content appears above the faded background */
+    z-index: 1;
 }
 
 header h1 {
     margin: 0;
-    font-size: 24px;
-    color: white; /* Ensures visibility against dark overlay */
+    font-size: 35px;
+    color: white;
     flex-grow: 1;
 }
 
 header .logo {
     width: 100px;
     height: auto;
+}
+
+/* NAVIGATION STYLING */
+
+nav {
+    background-color: #000E54; /* Solid color */
+    padding: 10px 0; /* Spacing for the navigation bar */
+}
+
+nav p {
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centers the links */
+}
+
+nav a {
+    color: #FFFFFF; /* White text color */
+    text-decoration: none; /* Removes underline */
+    padding: 10px 15px; /* Adds spacing between links */
+    margin: 0 15px; /* Adds more space between the links */
+    font-size: 16px; /* Adjusts font size */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Optionally adds an underline on hover */
 }
