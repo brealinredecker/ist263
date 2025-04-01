@@ -34,6 +34,7 @@ header h1 {
     font-size: 35px;
     color: white;
     flex-grow: 1;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header .logo {
@@ -60,8 +61,23 @@ nav a {
     padding: 10px 15px; /* Adds spacing between links */
     margin: 0 15px; /* Adds more space between the links */
     font-size: 16px; /* Adjusts font size */
+    font-weight: bold; /* Makes the links bold */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav a:hover {
     text-decoration: underline; /* Optionally adds an underline on hover */
+}
+
+/* BODY STYLES / FONTS / COLORS */
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.blue{
+    color: #000E54;
+}
+
+.orange {
+    color:#F76900 ;
 }
