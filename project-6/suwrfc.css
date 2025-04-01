@@ -69,9 +69,31 @@ nav a:hover {
     text-decoration: underline; /* Optionally adds an underline on hover */
 }
 
+/* FOOTER STYLING */
+footer {
+    background-color: #000E54; /* Blue background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Spacing inside the footer */
+    display: flex;
+    justify-content: space-between; /* Positions items on the left and right */
+    align-items: center; /* Vertically centers the content */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Consistent font style */
+}
+
+footer .copyright {
+    font-size: 14px; /* Adjust font size as needed */
+}
+
+footer .quote {
+    font-size: 16px; /* Adjust font size as needed */
+    font-style: italic; /* Optional: Make the quote italic */
+    text-align: right; /* Right-aligns the quote */
+}
+
+
 /* BODY STYLES / FONTS / COLORS */
 body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .blue{
