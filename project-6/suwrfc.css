@@ -120,7 +120,7 @@ footer .quote {
 
 .names {
     color: #F76900;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 /* INDEX PAGE */
@@ -256,6 +256,15 @@ main{
   }
 
   /* Roster Page */
+  .player h3 {
+    min-height: 2.5em; /* force space for short or long names */
+    margin: 10px 0 5px;
+}
+
+.player p {
+    min-height: 3em; /* adjust based on content type */
+}
+  
   .roster-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
