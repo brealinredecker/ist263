@@ -166,3 +166,46 @@ main{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/* TABLET AND PHONE RESIZING */
+
+/* Index Page */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .grid-item.text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /*Responsive imaging*/
+  .grid-item.image img,
+  .grid-item.image iframe {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Responsive layout: 1 column on phones */
+  @media screen and (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Roster Page */
+
+  /* News Page */
+
+  /* Awards Page */
+
+  /* Gallery Page */
+
+  /* Contact Page */
+
+  
