@@ -393,6 +393,11 @@ ul li, ol li {
     gap: 20px;
     padding: 20px 0;
 }
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
 
   .master-gallery {
     display: grid;
