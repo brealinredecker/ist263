@@ -112,10 +112,24 @@ footer .quote {
     font-weight: bold;
 }
 
+.blue-center{
+    color: #000E54;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
 .orange {
     color:#F76900 ;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.orange-center {
+    color:#F76900 ;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
 }
 
 .names {
