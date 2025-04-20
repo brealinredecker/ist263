@@ -1,0 +1,82 @@
+body{font-family: Cambria, Georgia, Times, 'Times New Roman', serif;}
+body{background-color: white;}
+
+text{color: black;}
+
+nav{background-color: black;
+    padding: 10px;
+    margin-bottom: 20px;}
+nav a{color: #c79409;}
+nav a:hover {background-color: #740001;}
+
+a{color: #c79409;}
+a:visited {color: #c79409;}
+a:hover{color: #c79409;}
+
+h1, h2 {color: #740001}
+h1 {font-size: 3em;}
+h2 {font-size: 2em;}
+
+.evenrow{background-color: rgba(134, 134, 134, 0.692);}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: left;
+    min-height: 50px;
+}
+
+.copyright {
+    float: left;
+    margin: 10px;
+}
+
+.quote {
+    float: right;
+    margin: 10px;
+    font-style: italic;
+}
+
+footer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.image-fixed {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) { 
+    nav p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        display: block;  
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav span {
+        display: none;
+    }
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+  }
+  .skip-link:focus {
+    top: 0;
+  }
+  
