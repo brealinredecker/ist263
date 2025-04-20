@@ -9,9 +9,9 @@ nav{background-color: black;
 nav a{color: #c79409;}
 nav a:hover {background-color: #740001;}
 
-a{color: #c79409;}
-a:visited {color: #c79409;}
-a:hover{color: #c79409;}
+a{color: #740001;}
+a:visited {color: #740001;}
+a:hover{color: #740001;}
 
 h1, h2 {color: #740001}
 h1 {font-size: 3em;}
