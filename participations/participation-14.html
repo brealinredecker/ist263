@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <style>
+        .container {width: 800px; margin: 0 auto;}
+        .button {
+            background-color: lightblue;
+            cursor: pointer;
+            padding: 5px;
+        }
+        #subscribeModal {
+            display: none; 
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        #modalContent {
+            background-color: white;
+            margin: 15% auto;
+            padding: 20px;
+            width: 300px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        #close {
+            float: right;
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        #emailInput {
+            width: 90%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        #submitBtn {
+            margin-top: 10px;
+            padding: 8px 15px;
+            background-color: teal;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            const modal = document.getElementById("subscribeModal");
+            const openBtn = document.querySelector(".button");
+            const closeBtn = document.getElementById("close");
+
+            openBtn.onclick = function() {
+                modal.style.display = "block";
+            }
+
+            closeBtn.onclick = function() {
+                modal.style.display = "none";
+            }
+
+            window.onclick = function(event) {
+                if (event.target === modal) {
+                    modal.style.display = "none";
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <img src="https://laferger.github.io/ist263/images/cupcakes.jpg">
+        <h1>Desserts</h1>
+        <p>Tootsie roll icing dessert oat cake lollipop jelly apple pie muffin. Jelly jelly-o bear claw topping muffin pudding oat cake. Carrot cake candy pie jujubes muffin tootsie roll. Brownie topping apple pie cupcake danish chocolate cotton candy gingerbread.</p>
+        
+        <p>Biscuit oat cake soufflé icing gingerbread cotton candy shortbread cupcake gummi bears. Chocolate cake lollipop biscuit lemon drops jelly tiramisu pie oat cake liquorice. Carrot cake cake cupcake cupcake lollipop sweet roll.</p>
+        
+        <p>Chocolate cake wafer cupcake candy canes carrot cake. Lollipop tart tootsie roll tart jelly-o candy canes candy. Halvah candy jelly-o jujubes toffee.</p>
+        
+        <p>Muffin pastry cupcake cheesecake icing lollipop. Jelly beans tootsie roll tootsie roll toffee gummi bears chocolate bar. Tart cake donut fruitcake oat cake sesame snaps jelly cookie icing. Jelly liquorice pudding biscuit cookie sweet roll tootsie roll dessert lollipop.</p>
+
+        <p><a class="button">Subscribe to Our Newsletter</a></p>
+        
+        <div id="subscribeModal">
+            <div id="modalContent">
+                <span id="close">&times;</span>
+                <h2>Subscribe</h2>
+                <p>Enter your email to get dessert updates!</p>
+                <input id="emailInput" type="email" placeholder="Email address">
+                <br>
+                <button id="submitBtn">Subscribe</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
