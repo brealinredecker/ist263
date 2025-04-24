@@ -99,7 +99,7 @@ footer .quote {
 
 /* BODY STYLES / FONTS / COLORS */
 .index{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color:#FFFFFF;
     display: flex;
     flex-direction: column;
@@ -107,29 +107,37 @@ footer .quote {
 }
 
 .blue{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: #000E54;
     font-size: 1.5em;
-    font-weight: bold;
 }
 
 .blue-center{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: #000E54;
     font-size: 1.5em;
-    font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
 }
 
 .orange {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color:#F76900 ;
     font-size: 1.5em;
-    font-weight: bold;
 }
 
 .orange-center {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color:#F76900 ;
     font-size: 1.5em;
-    font-weight: bold;
     text-align: center;
 }
 
