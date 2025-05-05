@@ -407,8 +407,9 @@ main{
 
 /* Image styling */
 .box-image {
-    width: 80px; /* Set the width of the image */
+    width: 400px; /* Set the width of the image */
     height: auto; /* Maintain the aspect ratio */
+    object-fit: cover;
     border-radius: 50%; /* Optional: make the image circular */
 }
 
@@ -443,7 +444,8 @@ ul li, ol li {
     }
 
     .box-image {
-        width: 50px; 
+        width: 150px;
+        height: 150px;
         margin-bottom: 10px; /* Add some space between the image and text */
     }
 }
