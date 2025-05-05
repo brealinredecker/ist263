@@ -99,7 +99,7 @@ footer .quote {
 
 /* BODY STYLES / FONTS / COLORS */
 .index{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Open Sans', 'Arial Narrow', Arial, sans-serif;
     background-color:#FFFFFF;
     display: flex;
     flex-direction: column;
@@ -107,11 +107,11 @@ footer .quote {
 }
 
 .awardfonts {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans', 'Arial Narrow', Arial, sans-serif;
 }
 
 .contactfonts {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans', 'Arial Narrow', Arial, sans-serif;
 }
 
 .blue{
