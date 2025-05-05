@@ -106,6 +106,14 @@ footer .quote {
     justify-content: center;
 }
 
+.awardfonts {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contactfonts {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .blue{
     font-family: "Special Gothic Expanded One", sans-serif;
     font-weight: 400;
@@ -142,6 +150,7 @@ footer .quote {
 }
 
 .names {
+    font-family: "Special Gothic Expanded One", sans-serif;
     color: #F76900;
     font-size: 1.5em;
 }
