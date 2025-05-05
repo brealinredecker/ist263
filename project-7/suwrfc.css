@@ -386,6 +386,7 @@ main{
   /* News Page */
 
   /* Awards Page */
+
   .awards-grid > div {
     display: flex;
     align-items: center; /* Vertically center the content */
@@ -442,7 +443,7 @@ ul li, ol li {
     }
 
     .box-image {
-        width: 100px; /* Optional: Adjust image size on mobile */
+        width: 50px; /* Optional: Adjust image size on mobile */
         margin-bottom: 10px; /* Add some space between the image and text */
     }
 }
