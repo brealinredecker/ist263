@@ -209,7 +209,7 @@ main{
 }
 
 /* CONTACT PAGE */
-.socials-row {
+.social-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -218,7 +218,7 @@ main{
 }
 
 .socials {
-    flex: 0 1 22%;
+    flex: 0 1 18%;
     text-align: center;
 }
 
@@ -491,6 +491,12 @@ ul li, ol li {
 }
   
   /* Contact Page */
+
+  @media (max-width: 600px) {
+    .socials {
+        flex: 0 1 45%;
+    }
+}
 
 
 
