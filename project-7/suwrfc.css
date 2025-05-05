@@ -448,4 +448,19 @@ ul li, ol li {
   
   /* Contact Page */
 
+.socials img, .socials i {
+    width: 50px;      /* Adjust size as needed */
+    height: 50px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;    /* Center the icon */
+}
+
+/* Optional: center text below icons */
+.socials p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+
   
