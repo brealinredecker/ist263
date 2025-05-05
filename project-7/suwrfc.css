@@ -244,12 +244,6 @@ main{
 }
 
 
-/* Optional: center text below icons */
-.socials p {
-    text-align: center;
-    margin-top: 5px;
-}
-
 
 /* TABLET AND PHONE RESIZING */
 
@@ -499,9 +493,43 @@ ul li, ol li {
   
   /* Contact Page */
 
-  @media (max-width: 600px) {
+  /* Tablets */
+@media (max-width: 768px) {
     .socials {
-        flex: 0 1 45%;
+        flex: 0 1 40%; /* 2 per row */
+    }
+
+    .form h2 {
+        font-size: 1.2rem;
+    }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+    .socials {
+        flex: 0 1 80%; /* 1 per row */
+    }
+
+    header h1 {
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 100px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .nav-links a {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .form form {
+        padding: 0 10px;
     }
 }
 
