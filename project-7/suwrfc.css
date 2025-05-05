@@ -440,7 +440,6 @@ ul li, ol li {
     .box-content {
         flex-direction: column; /* Stack the image and text vertically in each box */
         align-items: center; /* Center items */
-        width: 50px;
     }
 
     .box-image {
